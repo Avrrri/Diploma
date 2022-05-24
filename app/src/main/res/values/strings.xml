@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Diploma</string>
+
+    <string name="ok">Ок</string>
+    <string name="entry">Войти</string>
+    <string name="loading">Загрузка...</string>
+
+    <string name="login">логин: </string>
+    <string name="password">пароль: </string>
+    <string name="schedule">Расписание занятий</string>
+    <string name="call">Расписание звонков</string>
+    <string name="message">Сообщение</string>
+    <string name="drafts">Заметки</string>
+    <string name="settings">Настройки</string>
+    <string name="myname">Смагина Александра Павловна</string>
+    <string name="change">Смена пароля</string>
+    <string name="oldpass">Старый пароль:</string>
+    <string name="newpass">Новый пароль:</string>
+    <string name="againpass">Повторите новый пароль:</string>
+    <string name="cotacts">Контакты</string>
+    <string name="tutor">куратор:</string>
+    <string name="chief">староста:</string>
+
+    <string name="entyre">Уверены, что хотите выйти?</string>
+
+    <string name="forstudwnts">Уважаемые студенты! При утере пароля или логина свяжитесь с куратором
+        для восстановления доступа.</string>
+
+</resources>
