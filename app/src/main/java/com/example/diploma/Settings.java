@@ -14,10 +14,13 @@ public class Settings extends AppCompatActivity {
         setContentView(R.layout.settings);
     }
 
+    /*
     public void ClickBackToAuto(View view) {
         Intent intent = new Intent(Settings.this, Auto.class);
         startActivity(intent);
     }
+    */
+
     public void ClickBackToMain(View view) {
         Intent intent = new Intent(Settings.this, MainActivity.class);
         startActivity(intent);

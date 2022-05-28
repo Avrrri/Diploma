@@ -20,6 +20,13 @@
     <string name="cotacts">Контакты</string>
     <string name="tutor">куратор:</string>
     <string name="chief">староста:</string>
+    <string name="Save">Сохранить</string>
+
+    <string name="firstlesson">1 пара:</string>
+    <string name="secondlesson">2 пара:</string>
+    <string name="thirdlesson">3 пара:</string>
+    <string name="fourthlesson">4 пара:</string>
+    <string name="rest">перерыв:</string>
 
     <string name="entyre">Уверены, что хотите выйти?</string>
 
