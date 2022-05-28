@@ -17,55 +17,23 @@ public class Auto extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.auto);
-
-        //да что бл не так
-
-
-        /*
-        login = (EditText)findViewById(R.id.editTextTextPersonName);
-        password = (EditText)findViewById(R.id.editTextTextPassword);
-        if (isNullOrEmpty(login) || isNullOrEmpty(password)){
-            Toast.makeText(this, "Введите логин и пароль!", Toast.LENGTH_LONG);
-        }
-
-*/
-
-/*
-        private boolean vallidation() {
-            if(login.getText().toString().trim().equals("")) {
-                Toast.makeText(this, "Введите логин!", Toast.LENGTH_LONG);
-                return false;
-            } else if (login.getText().toString().trim().equals("")) {
-                Toast.makeText(this, "Введите пароль!", Toast.LENGTH_LONG);
-                return false;
-            }
-            return true;
-        }
-
-*/
-
-
     }
-/*
-    private boolean isNullOrEmmpty(String str){
-        return str == null || str.trim().lenght() == 0;
-    }
-*/
+
     public void ClickMain(View view) {
 
         login = (EditText)findViewById(R.id.editTextTextPersonName);
         password = (EditText)findViewById(R.id.editTextTextPassword);
         if (login.getText().toString().trim().equals("")) {
-            // Здесь код, если EditText пуст
-            Toast.makeText(this, "Введите логин!", Toast.LENGTH_LONG);
+            //если EditText пуст
+            Toast.makeText(getApplicationContext(), "Введите логин!", Toast.LENGTH_LONG).show();
         }
         else if (password.getText().toString().trim().equals(""))
         {
-            Toast.makeText(this, "Введите пароль!", Toast.LENGTH_LONG);
+            Toast.makeText(getApplicationContext(), "Введите пароль!", Toast.LENGTH_LONG).show();
         }
         else
         {
-            // если есть текст, то здесь другой код
+            // если есть текст, то
             Intent intent = new Intent(Auto.this, MainActivity.class);
             startActivity(intent);
         }
