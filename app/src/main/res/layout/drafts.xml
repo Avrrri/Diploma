@@ -10,7 +10,7 @@
         android:id="@+id/imageView45"
         android:layout_width="38dp"
         android:layout_height="37dp"
-        android:onClick="ClickBack"
+        android:onClick="ClickBackFromDrafts"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.024"
@@ -60,6 +60,21 @@
         app:srcCompat="@drawable/draft"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="269dp"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        tools:text="@string/sozd" />
+
     <ImageView
         android:id="@+id/imageView44"
         android:layout_width="28dp"
@@ -71,20 +86,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.317"
         app:srcCompat="@drawable/krestik" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="269dp"
-        android:layout_height="37dp"
-        android:textAlignment="center"
-        android:textColor="@color/text"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
 
     <TextView
         android:id="@+id/textView40"

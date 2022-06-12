@@ -32,5 +32,30 @@
 
     <string name="forstudwnts">Уважаемые студенты! При утере пароля или логина свяжитесь с куратором
         для восстановления доступа.</string>
+    <string name="studs">Уважаемые студенты! Просим вас соблюдать собординацию!</string>
+
+
+
+
+
+
+
+
+
+    <string name="sozd">Создайте свою заметку!</string>
+
+    <string name="Sergay">Адышкин Сергей Сергеевич</string>
+
+    <string name="one">9:00 - 10:40</string>
+    <string name="rest1">10:40 - 10:55</string>
+
+    <string name="two">10:55 - 12:45</string>
+    <string name="rest2">12:45 - 13:05</string>
+
+    <string name="tree">13:05 - 14:50</string>
+    <string name="rest3">14:50 - 15:05</string>
+
+    <string name="four">15:05 - 16:45</string>
+    <string name="rest4">16:45 - 16:55</string>
 
 </resources>

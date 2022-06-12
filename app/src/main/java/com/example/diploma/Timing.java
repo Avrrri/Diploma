@@ -16,9 +16,10 @@ public class Timing extends AppCompatActivity {
 
 
 
-    public void ClickBack(View view) {
+    public void ClickBackFromTiming(View view) {
         Intent intent = new Intent(Timing.this, MainActivity.class);
         startActivity(intent);
+
 
     }
 }

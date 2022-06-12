@@ -39,12 +39,14 @@ public class Text extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Напишите что-нибудь в заметку!", Toast.LENGTH_SHORT).show();
         }
         else {
+            Toast.makeText(getApplicationContext(), "Заметка сохранена", Toast.LENGTH_SHORT).show();
             String id = mDataBase.getKey();
             String NameText = textName.getText().toString();
             String textText = text.getText().toString();
             Note newNote = new Note(id, NameText, textText);
             mDataBase.push().setValue(newNote);
-            Toast.makeText(getApplicationContext(), "Заметка сохранена", Toast.LENGTH_SHORT).show();
+
+
         }
 
     }
