@@ -42,15 +42,24 @@ public class Auto extends AppCompatActivity {
         else if (password.getText().toString().trim().equals(""))
         {
             Toast.makeText(getApplicationContext(), "Введите пароль!", Toast.LENGTH_SHORT).show();
+
         }
+        else if (!login.getText().toString().trim().equals("student")) {
+            Toast.makeText(getApplicationContext(), "Учетной записи с таким логином не существует!", Toast.LENGTH_SHORT).show();
+        }
+
+        else if (!password.getText().toString().trim().equals("student")) {
+            Toast.makeText(getApplicationContext(), "Учетной записи с таким паролем не существует!", Toast.LENGTH_SHORT).show();
+        }
+
         else
         {
             // если есть текст, то внести в базу
-            String id = mDataBase.getKey();
+           /* String id = mDataBase.getKey();
             String loginName = login.getText().toString();
             String passwordName = password.getText().toString();
             User newUser = new User(id, loginName, passwordName);
-            mDataBase.push().setValue(newUser);
+            mDataBase.push().setValue(newUser); */
             //и перейти на главную страницу
             Intent intent = new Intent(Auto.this, MainActivity.class);
             startActivity(intent);
