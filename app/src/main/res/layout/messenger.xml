@@ -84,6 +84,7 @@
                 android:id="@+id/imageView57"
                 android:layout_width="395dp"
                 android:layout_height="107dp"
+                android:onClick="ClickToMessage"
                 app:srcCompat="@drawable/nastya" />
 
             <ImageView
