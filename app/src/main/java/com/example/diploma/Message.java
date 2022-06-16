@@ -29,13 +29,13 @@ public class Message extends AppCompatActivity {
     public void ClickPush(View view) {
 
         if (message.getText().toString().trim().equals("")) {
-            //если EditText пуст
             ImageView = findViewById(R.id.imageView66);
             ImageView.setVisibility(View.INVISIBLE);
         }
         else {
             ImageView = findViewById(R.id.imageView66);
             ImageView.setVisibility(View.VISIBLE);
+            message.setText("");
         }
     }
 

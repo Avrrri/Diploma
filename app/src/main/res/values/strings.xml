@@ -15,7 +15,10 @@
     <string name="myname">Смагина Александра Павловна</string>
     <string name="change">Смена пароля</string>
     <string name="oldpass">Старый пароль:</string>
+    <string name="oldp">старый пароль:</string>
     <string name="newpass">Новый пароль:</string>
+    <string name="newp">новый пароль:</string>
+    <string name="repeat">повторите:</string>
     <string name="againpass">Повторите новый пароль:</string>
     <string name="cotacts">Контакты</string>
     <string name="tutor">куратор:</string>
